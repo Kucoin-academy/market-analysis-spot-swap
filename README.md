@@ -1,4 +1,4 @@
-# market-analysis-swap
+# market-analysis-spot-swap
 Analysis of kucoin spot and kumex swap 
 
 # analysis
