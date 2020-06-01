@@ -59,7 +59,7 @@
             请选择价差数据:
             <select id="dateSelect"></select>
             <select id="currencySelect"></select>
-            <select id="flieNameSelect"></select>
+            <!-- <select id="flieNameSelect"></select> -->
             <button class="button" style="vertical-align:middle" id="btn"><span>获取价差</span></button>
         </p>
         <div id="main" style="width: 100%;height:50vw;position:relative;top:-15px;"></div>
@@ -361,7 +361,7 @@
         initSelect(dateOption, 'dateSelect')
         initSelect(currencyOption, 'currencySelect')
         // initSelect(flieNameOption, 'flieNameSelect')
-        getData('files/' + dateOption[dateOption.length-1] + '/XBTUSDM-BTCUSDT.csv');
+        getData('https://raw.githubusercontent.com/1bazinga25/market-analysis-spot-swap/master/'+'files/' + dateOption[dateOption.length-1] + '/XBTUSDM-BTCUSDT.csv');
     </script>
 </body>
 
