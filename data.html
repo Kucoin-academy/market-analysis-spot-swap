@@ -342,8 +342,18 @@
         // 币种数据
         var currencyOption = [
             {
-                value: 'XBTUSDM-BTCUSDT',
-                name: 'XBTUSDM-BTCUSDT'
+                value: 'BTCUSDT-XBTUSDTM',
+                name: 'BTCUSDT-XBTUSDTM'
+            },
+            {
+                value: 'BCHSVUSDT-BSVUSDTM',
+                name: 'BCHSVUSDT-BSVUSDTM'
+            },{
+                value: 'BCHUSDT-BCHUSDTM',
+                name: 'BCHUSDT-BCHUSDTM'
+            },{
+                value: 'ETHUSDT-ETHUSDTM',
+                name: 'ETHUSDT-ETHUSDTM'
             }
         ]
         // // 文件名称数据
@@ -360,7 +370,7 @@
         initSelect(dateOption, 'dateSelect')
         initSelect(currencyOption, 'currencySelect')
         // initSelect(flieNameOption, 'flieNameSelect')
-        getData('files/' + dateOption[0] + '/XBTUSDM-BTCUSDT.csv');
+        getData('files/' + dateOption[0] + '/BTCUSDT-XBTUSDTM.csv');
     </script>
 </body>
 
